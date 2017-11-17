@@ -16,6 +16,7 @@
 		F854BF161FBEB9B500A33E81 /* LKSearchVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF151FBEB9B500A33E81 /* LKSearchVCUITests.m */; };
 		F854BF271FBEBCD300A33E81 /* LKSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF261FBEBCD300A33E81 /* LKSearchViewController.m */; };
 		F854BF2A1FBEBD5000A33E81 /* LKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF291FBEBD5000A33E81 /* LKRootViewController.m */; };
+		F854BF2E1FBEC0FF00A33E81 /* SearchHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF2D1FBEC0FF00A33E81 /* SearchHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		F854BF281FBEBD5000A33E81 /* LKRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKRootViewController.h; sourceTree = "<group>"; };
 		F854BF291FBEBD5000A33E81 /* LKRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKRootViewController.m; sourceTree = "<group>"; };
 		F854BF2B1FBEBE6200A33E81 /* Comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
+		F854BF2C1FBEC0FF00A33E81 /* SearchHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchHeader.h; sourceTree = "<group>"; };
+		F854BF2D1FBEC0FF00A33E81 /* SearchHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				F854BF291FBEBD5000A33E81 /* LKRootViewController.m */,
 				F854BF251FBEBCD300A33E81 /* LKSearchViewController.h */,
 				F854BF261FBEBCD300A33E81 /* LKSearchViewController.m */,
+				F854BF2C1FBEC0FF00A33E81 /* SearchHeader.h */,
+				F854BF2D1FBEC0FF00A33E81 /* SearchHeader.m */,
 				F854BF241FBEBBDD00A33E81 /* headers.pch */,
 				F854BF2B1FBEBE6200A33E81 /* Comment.h */,
 				F854BEFA1FBEB9B500A33E81 /* Assets.xcassets */,
@@ -345,6 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F854BF2E1FBEC0FF00A33E81 /* SearchHeader.m in Sources */,
 				F854BF011FBEB9B500A33E81 /* main.m in Sources */,
 				F854BF271FBEBCD300A33E81 /* LKSearchViewController.m in Sources */,
 				F854BEF31FBEB9B500A33E81 /* AppDelegate.m in Sources */,
@@ -506,6 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFE2R8P75K;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LKSearchVC/headers.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",
@@ -528,6 +535,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = UFE2R8P75K;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LKSearchVC/headers.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/Headers/Public\"",

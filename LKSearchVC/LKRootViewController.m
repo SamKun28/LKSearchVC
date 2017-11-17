@@ -7,7 +7,7 @@
 //
 
 #import "LKRootViewController.h"
-
+#import "LKSearchViewController.h"
 @interface LKRootViewController ()
 
 @end
@@ -16,14 +16,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor whiteColor];
     self.navigationItem.title = @"首页";
     UIBarButtonItem * searchItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch target:self action:@selector(showSearch)];
     // Do any additional setup after loading the view.
     self.navigationItem.rightBarButtonItem = searchItem;
+    
 }
 
 -(void)showSearch{
-    
+    LKSearchViewController * searchVC = [[LKSearchViewController alloc] init];
+    [self presentViewController:searchVC animated:NO completion:nil];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
