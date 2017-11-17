@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8240036212A26257534D1FF /* libPods-LKSearchVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1736C2D0E4ACAE329969BED /* libPods-LKSearchVC.a */; };
+		F854BEF31FBEB9B500A33E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BEF21FBEB9B500A33E81 /* AppDelegate.m */; };
+		F854BEF61FBEB9B500A33E81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BEF51FBEB9B500A33E81 /* ViewController.m */; };
+		F854BEF91FBEB9B500A33E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F854BEF71FBEB9B500A33E81 /* Main.storyboard */; };
+		F854BEFB1FBEB9B500A33E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F854BEFA1FBEB9B500A33E81 /* Assets.xcassets */; };
+		F854BEFE1FBEB9B500A33E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F854BEFC1FBEB9B500A33E81 /* LaunchScreen.storyboard */; };
+		F854BF011FBEB9B500A33E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF001FBEB9B500A33E81 /* main.m */; };
+		F854BF0B1FBEB9B500A33E81 /* LKSearchVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF0A1FBEB9B500A33E81 /* LKSearchVCTests.m */; };
+		F854BF161FBEB9B500A33E81 /* LKSearchVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF151FBEB9B500A33E81 /* LKSearchVCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F854BF071FBEB9B500A33E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F854BEE61FBEB9B500A33E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F854BEED1FBEB9B500A33E81;
+			remoteInfo = LKSearchVC;
+		};
+		F854BF121FBEB9B500A33E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F854BEE61FBEB9B500A33E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F854BEED1FBEB9B500A33E81;
+			remoteInfo = LKSearchVC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A7AAEFBA1936419CF817CBA /* Pods-LKSearchVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSearchVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKSearchVC/Pods-LKSearchVC.debug.xcconfig"; sourceTree = "<group>"; };
+		C4E1640978D6F39272170E98 /* Pods-LKSearchVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKSearchVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKSearchVC/Pods-LKSearchVC.release.xcconfig"; sourceTree = "<group>"; };
+		D1736C2D0E4ACAE329969BED /* libPods-LKSearchVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LKSearchVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F854BEEE1FBEB9B500A33E81 /* LKSearchVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKSearchVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F854BEF11FBEB9B500A33E81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F854BEF21FBEB9B500A33E81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F854BEF41FBEB9B500A33E81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F854BEF51FBEB9B500A33E81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F854BEF81FBEB9B500A33E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F854BEFA1FBEB9B500A33E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F854BEFD1FBEB9B500A33E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F854BEFF1FBEB9B500A33E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F854BF001FBEB9B500A33E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F854BF061FBEB9B500A33E81 /* LKSearchVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKSearchVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F854BF0A1FBEB9B500A33E81 /* LKSearchVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSearchVCTests.m; sourceTree = "<group>"; };
+		F854BF0C1FBEB9B500A33E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F854BF111FBEB9B500A33E81 /* LKSearchVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKSearchVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F854BF151FBEB9B500A33E81 /* LKSearchVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSearchVCUITests.m; sourceTree = "<group>"; };
+		F854BF171FBEB9B500A33E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F854BEEB1FBEB9B500A33E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8240036212A26257534D1FF /* libPods-LKSearchVC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F854BF031FBEB9B500A33E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F854BF0E1FBEB9B500A33E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38D38B7121A3A1CCD5AA98B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1736C2D0E4ACAE329969BED /* libPods-LKSearchVC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEABF94009B148F62842ED31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7AAEFBA1936419CF817CBA /* Pods-LKSearchVC.debug.xcconfig */,
+				C4E1640978D6F39272170E98 /* Pods-LKSearchVC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F854BEE51FBEB9B500A33E81 = {
+			isa = PBXGroup;
+			children = (
+				F854BEF01FBEB9B500A33E81 /* LKSearchVC */,
+				F854BF091FBEB9B500A33E81 /* LKSearchVCTests */,
+				F854BF141FBEB9B500A33E81 /* LKSearchVCUITests */,
+				F854BEEF1FBEB9B500A33E81 /* Products */,
+				DEABF94009B148F62842ED31 /* Pods */,
+				38D38B7121A3A1CCD5AA98B5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F854BEEF1FBEB9B500A33E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F854BEEE1FBEB9B500A33E81 /* LKSearchVC.app */,
+				F854BF061FBEB9B500A33E81 /* LKSearchVCTests.xctest */,
+				F854BF111FBEB9B500A33E81 /* LKSearchVCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F854BEF01FBEB9B500A33E81 /* LKSearchVC */ = {
+			isa = PBXGroup;
+			children = (
+				F854BEF11FBEB9B500A33E81 /* AppDelegate.h */,
+				F854BEF21FBEB9B500A33E81 /* AppDelegate.m */,
+				F854BEF41FBEB9B500A33E81 /* ViewController.h */,
+				F854BEF51FBEB9B500A33E81 /* ViewController.m */,
+				F854BEF71FBEB9B500A33E81 /* Main.storyboard */,
+				F854BEFA1FBEB9B500A33E81 /* Assets.xcassets */,
+				F854BEFC1FBEB9B500A33E81 /* LaunchScreen.storyboard */,
+				F854BEFF1FBEB9B500A33E81 /* Info.plist */,
+				F854BF001FBEB9B500A33E81 /* main.m */,
+			);
+			path = LKSearchVC;
+			sourceTree = "<group>";
+		};
+		F854BF091FBEB9B500A33E81 /* LKSearchVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				F854BF0A1FBEB9B500A33E81 /* LKSearchVCTests.m */,
+				F854BF0C1FBEB9B500A33E81 /* Info.plist */,
+			);
+			path = LKSearchVCTests;
+			sourceTree = "<group>";
+		};
+		F854BF141FBEB9B500A33E81 /* LKSearchVCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F854BF151FBEB9B500A33E81 /* LKSearchVCUITests.m */,
+				F854BF171FBEB9B500A33E81 /* Info.plist */,
+			);
+			path = LKSearchVCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F854BEED1FBEB9B500A33E81 /* LKSearchVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F854BF1A1FBEB9B500A33E81 /* Build configuration list for PBXNativeTarget "LKSearchVC" */;
+			buildPhases = (
+				4BF0A9FA604067E5AE2AA573 /* [CP] Check Pods Manifest.lock */,
+				F854BEEA1FBEB9B500A33E81 /* Sources */,
+				F854BEEB1FBEB9B500A33E81 /* Frameworks */,
+				F854BEEC1FBEB9B500A33E81 /* Resources */,
+				00D0A007A9761C41ED9EBC6C /* [CP] Embed Pods Frameworks */,
+				6A0D89B7D47023E2385B1F5E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKSearchVC;
+			productName = LKSearchVC;
+			productReference = F854BEEE1FBEB9B500A33E81 /* LKSearchVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F854BF051FBEB9B500A33E81 /* LKSearchVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F854BF1D1FBEB9B500A33E81 /* Build configuration list for PBXNativeTarget "LKSearchVCTests" */;
+			buildPhases = (
+				F854BF021FBEB9B500A33E81 /* Sources */,
+				F854BF031FBEB9B500A33E81 /* Frameworks */,
+				F854BF041FBEB9B500A33E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F854BF081FBEB9B500A33E81 /* PBXTargetDependency */,
+			);
+			name = LKSearchVCTests;
+			productName = LKSearchVCTests;
+			productReference = F854BF061FBEB9B500A33E81 /* LKSearchVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F854BF101FBEB9B500A33E81 /* LKSearchVCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F854BF201FBEB9B500A33E81 /* Build configuration list for PBXNativeTarget "LKSearchVCUITests" */;
+			buildPhases = (
+				F854BF0D1FBEB9B500A33E81 /* Sources */,
+				F854BF0E1FBEB9B500A33E81 /* Frameworks */,
+				F854BF0F1FBEB9B500A33E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F854BF131FBEB9B500A33E81 /* PBXTargetDependency */,
+			);
+			name = LKSearchVCUITests;
+			productName = LKSearchVCUITests;
+			productReference = F854BF111FBEB9B500A33E81 /* LKSearchVCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F854BEE61FBEB9B500A33E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = likun;
+				TargetAttributes = {
+					F854BEED1FBEB9B500A33E81 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F854BF051FBEB9B500A33E81 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F854BEED1FBEB9B500A33E81;
+					};
+					F854BF101FBEB9B500A33E81 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F854BEED1FBEB9B500A33E81;
+					};
+				};
+			};
+			buildConfigurationList = F854BEE91FBEB9B500A33E81 /* Build configuration list for PBXProject "LKSearchVC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F854BEE51FBEB9B500A33E81;
+			productRefGroup = F854BEEF1FBEB9B500A33E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F854BEED1FBEB9B500A33E81 /* LKSearchVC */,
+				F854BF051FBEB9B500A33E81 /* LKSearchVCTests */,
+				F854BF101FBEB9B500A33E81 /* LKSearchVCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F854BEEC1FBEB9B500A33E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F854BEFE1FBEB9B500A33E81 /* LaunchScreen.storyboard in Resources */,
+				F854BEFB1FBEB9B500A33E81 /* Assets.xcassets in Resources */,
+				F854BEF91FBEB9B500A33E81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F854BF041FBEB9B500A33E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F854BF0F1FBEB9B500A33E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00D0A007A9761C41ED9EBC6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKSearchVC/Pods-LKSearchVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BF0A9FA604067E5AE2AA573 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0D89B7D47023E2385B1F5E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LKSearchVC/Pods-LKSearchVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F854BEEA1FBEB9B500A33E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F854BEF61FBEB9B500A33E81 /* ViewController.m in Sources */,
+				F854BF011FBEB9B500A33E81 /* main.m in Sources */,
+				F854BEF31FBEB9B500A33E81 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F854BF021FBEB9B500A33E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F854BF0B1FBEB9B500A33E81 /* LKSearchVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F854BF0D1FBEB9B500A33E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F854BF161FBEB9B500A33E81 /* LKSearchVCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F854BF081FBEB9B500A33E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F854BEED1FBEB9B500A33E81 /* LKSearchVC */;
+			targetProxy = F854BF071FBEB9B500A33E81 /* PBXContainerItemProxy */;
+		};
+		F854BF131FBEB9B500A33E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F854BEED1FBEB9B500A33E81 /* LKSearchVC */;
+			targetProxy = F854BF121FBEB9B500A33E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F854BEF71FBEB9B500A33E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F854BEF81FBEB9B500A33E81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F854BEFC1FBEB9B500A33E81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F854BEFD1FBEB9B500A33E81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F854BF181FBEB9B500A33E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F854BF191FBEB9B500A33E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F854BF1B1FBEB9B500A33E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A7AAEFBA1936419CF817CBA /* Pods-LKSearchVC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKSearchVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F854BF1C1FBEB9B500A33E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4E1640978D6F39272170E98 /* Pods-LKSearchVC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKSearchVC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F854BF1E1FBEB9B500A33E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKSearchVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKSearchVC.app/LKSearchVC";
+			};
+			name = Debug;
+		};
+		F854BF1F1FBEB9B500A33E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKSearchVCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKSearchVC.app/LKSearchVC";
+			};
+			name = Release;
+		};
+		F854BF211FBEB9B500A33E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKSearchVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKSearchVC;
+			};
+			name = Debug;
+		};
+		F854BF221FBEB9B500A33E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LKSearchVCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LKSearchVC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F854BEE91FBEB9B500A33E81 /* Build configuration list for PBXProject "LKSearchVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F854BF181FBEB9B500A33E81 /* Debug */,
+				F854BF191FBEB9B500A33E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F854BF1A1FBEB9B500A33E81 /* Build configuration list for PBXNativeTarget "LKSearchVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F854BF1B1FBEB9B500A33E81 /* Debug */,
+				F854BF1C1FBEB9B500A33E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F854BF1D1FBEB9B500A33E81 /* Build configuration list for PBXNativeTarget "LKSearchVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F854BF1E1FBEB9B500A33E81 /* Debug */,
+				F854BF1F1FBEB9B500A33E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F854BF201FBEB9B500A33E81 /* Build configuration list for PBXNativeTarget "LKSearchVCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F854BF211FBEB9B500A33E81 /* Debug */,
+				F854BF221FBEB9B500A33E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F854BEE61FBEB9B500A33E81 /* Project object */;
+}
