@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LKSearchViewController.h
 //  LKSearchVC
 //
 //  Created by likun on 2017/11/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LKSearchViewController : UIViewController
 
 @end
-

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LKRootViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    LKRootViewController * rootVC= [[LKRootViewController alloc] init];
+    UINavigationController * rootNaVC = [[UINavigationController alloc] initWithRootViewController:rootVC];
+    self.window.rootViewController = rootNaVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

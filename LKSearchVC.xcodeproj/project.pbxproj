@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		E8240036212A26257534D1FF /* libPods-LKSearchVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1736C2D0E4ACAE329969BED /* libPods-LKSearchVC.a */; };
 		F854BEF31FBEB9B500A33E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BEF21FBEB9B500A33E81 /* AppDelegate.m */; };
-		F854BEF61FBEB9B500A33E81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BEF51FBEB9B500A33E81 /* ViewController.m */; };
-		F854BEF91FBEB9B500A33E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F854BEF71FBEB9B500A33E81 /* Main.storyboard */; };
 		F854BEFB1FBEB9B500A33E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F854BEFA1FBEB9B500A33E81 /* Assets.xcassets */; };
 		F854BEFE1FBEB9B500A33E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F854BEFC1FBEB9B500A33E81 /* LaunchScreen.storyboard */; };
 		F854BF011FBEB9B500A33E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF001FBEB9B500A33E81 /* main.m */; };
 		F854BF0B1FBEB9B500A33E81 /* LKSearchVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF0A1FBEB9B500A33E81 /* LKSearchVCTests.m */; };
 		F854BF161FBEB9B500A33E81 /* LKSearchVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF151FBEB9B500A33E81 /* LKSearchVCUITests.m */; };
+		F854BF271FBEBCD300A33E81 /* LKSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF261FBEBCD300A33E81 /* LKSearchViewController.m */; };
+		F854BF2A1FBEBD5000A33E81 /* LKRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F854BF291FBEBD5000A33E81 /* LKRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,6 @@
 		F854BEEE1FBEB9B500A33E81 /* LKSearchVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKSearchVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F854BEF11FBEB9B500A33E81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F854BEF21FBEB9B500A33E81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F854BEF41FBEB9B500A33E81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F854BEF51FBEB9B500A33E81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F854BEF81FBEB9B500A33E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F854BEFA1FBEB9B500A33E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F854BEFD1FBEB9B500A33E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F854BEFF1FBEB9B500A33E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +52,12 @@
 		F854BF111FBEB9B500A33E81 /* LKSearchVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKSearchVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F854BF151FBEB9B500A33E81 /* LKSearchVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSearchVCUITests.m; sourceTree = "<group>"; };
 		F854BF171FBEB9B500A33E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F854BF241FBEBBDD00A33E81 /* headers.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headers.pch; sourceTree = "<group>"; };
+		F854BF251FBEBCD300A33E81 /* LKSearchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKSearchViewController.h; sourceTree = "<group>"; };
+		F854BF261FBEBCD300A33E81 /* LKSearchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKSearchViewController.m; sourceTree = "<group>"; };
+		F854BF281FBEBD5000A33E81 /* LKRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LKRootViewController.h; sourceTree = "<group>"; };
+		F854BF291FBEBD5000A33E81 /* LKRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKRootViewController.m; sourceTree = "<group>"; };
+		F854BF2B1FBEBE6200A33E81 /* Comment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Comment.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +130,12 @@
 			children = (
 				F854BEF11FBEB9B500A33E81 /* AppDelegate.h */,
 				F854BEF21FBEB9B500A33E81 /* AppDelegate.m */,
-				F854BEF41FBEB9B500A33E81 /* ViewController.h */,
-				F854BEF51FBEB9B500A33E81 /* ViewController.m */,
-				F854BEF71FBEB9B500A33E81 /* Main.storyboard */,
+				F854BF281FBEBD5000A33E81 /* LKRootViewController.h */,
+				F854BF291FBEBD5000A33E81 /* LKRootViewController.m */,
+				F854BF251FBEBCD300A33E81 /* LKSearchViewController.h */,
+				F854BF261FBEBCD300A33E81 /* LKSearchViewController.m */,
+				F854BF241FBEBBDD00A33E81 /* headers.pch */,
+				F854BF2B1FBEBE6200A33E81 /* Comment.h */,
 				F854BEFA1FBEB9B500A33E81 /* Assets.xcassets */,
 				F854BEFC1FBEB9B500A33E81 /* LaunchScreen.storyboard */,
 				F854BEFF1FBEB9B500A33E81 /* Info.plist */,
@@ -267,7 +273,6 @@
 			files = (
 				F854BEFE1FBEB9B500A33E81 /* LaunchScreen.storyboard in Resources */,
 				F854BEFB1FBEB9B500A33E81 /* Assets.xcassets in Resources */,
-				F854BEF91FBEB9B500A33E81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,9 +345,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F854BEF61FBEB9B500A33E81 /* ViewController.m in Sources */,
 				F854BF011FBEB9B500A33E81 /* main.m in Sources */,
+				F854BF271FBEBCD300A33E81 /* LKSearchViewController.m in Sources */,
 				F854BEF31FBEB9B500A33E81 /* AppDelegate.m in Sources */,
+				F854BF2A1FBEBD5000A33E81 /* LKRootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,14 +384,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F854BEF71FBEB9B500A33E81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F854BEF81FBEB9B500A33E81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F854BEFC1FBEB9B500A33E81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -507,11 +505,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFE2R8P75K;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+				);
 				INFOPLIST_FILE = LKSearchVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -521,11 +527,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UFE2R8P75K;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+				);
 				INFOPLIST_FILE = LKSearchVC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LK.LKSearchVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
